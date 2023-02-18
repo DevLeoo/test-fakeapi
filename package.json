@@ -1,0 +1,17 @@
+{
+  "name": "test-fakeapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tsc && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "Leoanardo Candido",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "typescript": "^4.9.5"
+  }
+}

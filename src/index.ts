@@ -2,7 +2,6 @@ import { faker } from "@faker-js/faker";
 
 interface Company {
   cod: number;
-  supplier_filter: string;
   name: string;
   cnpj: string;
   cep: string;
